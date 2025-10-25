@@ -15,9 +15,9 @@ const Navbar = () => {
       </li>
       </Link>
 
-      <Link>
+      <Link to={'/installation'} onClick={()=>setactivePage("install")}>
       <li>
-        <a>Installation</a>
+        <a className={`${activePage=== "install" &&  "border-b-3 border-blue-600 text-blue-500 font-bold"}`}>Installation</a>
       </li>
       </Link>
       

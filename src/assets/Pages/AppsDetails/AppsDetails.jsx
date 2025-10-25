@@ -18,6 +18,8 @@ const AppsDetails = () => {
   const data = useLoaderData();
   const appid = parseInt(id);
   const [install, setInstall] = useState(false);
+
+  
   const appdata = data.find((app) => app.id === appid);
   const {
     image,
@@ -31,6 +33,32 @@ const AppsDetails = () => {
     ratings,
   } = appdata;
   console.log(image);
+
+  const handleInstall=()=>{
+    const exitingList = JSON.parse(localStorage.getItem('installed'))
+    console.log(exitingList)
+    let updatedList =[];
+    if(exitingList){
+        const isDuplicate = exitingList.some(app=>app.id===appdata.id)
+        if(isDuplicate){
+            setInstall(true);
+            alert("Installed");
+            return;
+        } 
+        updatedList = [...exitingList,appdata]
+        
+        console.log(isDuplicate);
+
+
+    }else{
+        updatedList.push(appdata)
+    }
+    
+    
+
+    localStorage.setItem('installed',JSON.stringify(updatedList))
+
+  }
   return (
     <>
       <div className="p-6">
@@ -66,7 +94,7 @@ const AppsDetails = () => {
               </div>
             </div>
             <button
-              onClick={() => setInstall(true)}
+              onClick={handleInstall}
               className="bg-[#00D390] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl text-white"
             >
               {install ? "Installing" : `Install ${size}`}
