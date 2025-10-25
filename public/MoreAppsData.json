@@ -1,0 +1,382 @@
+[
+  {
+    "image": "/appImages/app1.jpg",
+    "title": "TaskFlow",
+    "companyName": "NextGen Labs",
+    "id": 1,
+    "description": "A smart task management app to organize your daily activities efficiently.",
+    "longDescription": "TaskFlow is your intelligent productivity partner, built to simplify how you plan, prioritize, and execute tasks every day. With its intuitive drag-and-drop interface and AI-powered scheduling assistant, TaskFlow helps you stay organized without feeling overwhelmed. Whether you’re managing personal errands or collaborating with your team on complex projects, TaskFlow adapts to your workflow. You can create to-do lists, set reminders, and even track progress with visual analytics. Offline sync ensures you never lose data, while cloud backup keeps everything accessible across all your devices. The app also integrates seamlessly with popular platforms like Google Calendar, Slack, and Trello, letting you centralize your productivity tools. With its clean, distraction-free design and smart notifications, TaskFlow turns productivity into a natural habit. Built for professionals, students, and teams alike, it’s the modern way to get more done with less effort.",
+    "size": "45MB",
+    "reviews": "2.1k",
+    "ratingAvg": 4.5,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "image": "/appImages/app2.jpg",
+    "title": "FitTrack",
+    "companyName": "Healthify Co.",
+    "id": 2,
+    "description": "Track your fitness goals, workouts, and calorie intake with ease.",
+    "longDescription": "FitTrack is a comprehensive health and fitness tracking app designed to help you achieve your wellness goals with precision and motivation. Whether you’re a beginner or an athlete, FitTrack offers personalized workout routines, nutrition guidance, and progress insights. The app features an advanced calorie counter, a heart rate monitor, and daily step tracking to keep you aware of your physical activity. You can log your meals, monitor hydration, and even analyze your sleep patterns to optimize recovery. With integration support for smartwatches and health devices, FitTrack provides real-time data syncing and insights you can trust. A built-in community feature allows you to connect with like-minded fitness enthusiasts, share achievements, and join global challenges. Designed with an elegant UI and backed by accurate analytics, FitTrack empowers you to stay consistent and make healthier choices every day — turning your goals into lasting habits.",
+    "size": "70MB",
+    "reviews": "3.2k",
+    "ratingAvg": 4.7,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1910 }
+    ]
+  },
+  {
+    "image": "/appImages/app3.png",
+    "title": "NoteX",
+    "companyName": "CloudSync Ltd.",
+    "id": 3,
+    "description": "Simple and fast note-taking app with cloud backup and markdown support.",
+    "longDescription": "NoteX is a modern, minimalistic note-taking solution built for speed, flexibility, and convenience. Whether you’re capturing quick thoughts, writing long essays, or organizing class notes, NoteX ensures your ideas are always within reach. With support for Markdown, you can easily format text, add code snippets, or create professional notes without switching editors. Cloud synchronization keeps your data secure and accessible across all devices in real-time, while offline mode ensures uninterrupted productivity. The app includes folders, tags, and a powerful search tool to help you find any note instantly. You can also collaborate by sharing notes with others, making it ideal for students, writers, and professionals. NoteX is lightweight yet powerful — featuring dark mode, customizable themes, and an elegant distraction-free writing interface. Your ideas deserve clarity and structure, and NoteX delivers exactly that — anytime, anywhere.",
+    "size": "35MB",
+    "reviews": "1.5k",
+    "ratingAvg": 4.2,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "/appImages/app4.jpg",
+    "title": "MusicMate",
+    "companyName": "SonicWave Inc.",
+    "id": 4,
+    "description": "Listen to your favorite songs and discover new artists every day.",
+    "longDescription": "MusicMate transforms the way you experience music by combining powerful streaming features with intelligent personalization. Discover trending tracks, explore curated playlists, and enjoy a seamless listening experience across devices. With an adaptive algorithm that learns your taste, MusicMate suggests new artists and genres that match your mood and vibe. The app supports high-quality audio streaming, offline downloads, and real-time lyrics display, ensuring you never miss a beat. It also includes social features that let you follow friends, share playlists, and comment on songs. Whether you love pop, jazz, EDM, or classical, MusicMate adapts to your preferences over time. Its clean interface, low data consumption, and cross-platform sync make it a top choice for music lovers worldwide. More than just an app — it’s your personal DJ, your favorite radio, and your music library, all in one smart platform.",
+    "size": "85MB",
+    "reviews": "5.8k",
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 4270 }
+    ]
+  },
+  {
+    "image": "/appImages/app5.jpg",
+    "title": "Travelio",
+    "companyName": "GlobalTech",
+    "id": 5,
+    "description": "Your ultimate travel companion for booking flights, hotels, and tours.",
+    "longDescription": "Travelio is an all-in-one travel app crafted to simplify the way you explore the world. From flight and hotel bookings to tour planning and expense tracking, Travelio brings everything together in one smooth interface. You can compare airline fares, find the best accommodation deals, and explore local attractions curated by real travelers. The built-in AI assistant helps you plan personalized itineraries based on your interests, budget, and travel history. Offline maps, language guides, and emergency tools make traveling safer and easier. You can also save and share your trip memories with friends using Travelio’s built-in journal feature. Whether you’re on a business trip or a vacation getaway, Travelio ensures every journey is stress-free and memorable. It’s not just an app — it’s your smart digital travel partner, designed to make adventures simple, affordable, and unforgettable.",
+    "size": "92MB",
+    "reviews": "2.6k",
+    "ratingAvg": 4.4,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1110 }
+    ]
+  },
+  {
+    "image": "/appImages/app6.jpg",
+    "title": "EduLearn",
+    "companyName": "BrightFuture",
+    "id": 6,
+    "description": "Learn coding, design, and business skills with interactive lessons.",
+    "longDescription": "EduLearn is your virtual classroom for mastering the skills of tomorrow. With thousands of interactive video lessons, coding exercises, and design projects, EduLearn makes education engaging and accessible. Whether you want to learn JavaScript, UI/UX design, data science, or business management, the app adapts to your pace and level. Each course is created by industry experts and includes quizzes, projects, and certificates of completion. EduLearn’s AI tutor tracks your learning progress and recommends personalized paths to keep you motivated. Offline access, dark mode, and discussion forums enhance your learning experience anywhere, anytime. You can even join peer groups or mentor sessions to gain real-world insights. With its clean design and immersive learning tools, EduLearn empowers you to build a brighter career — one lesson at a time.",
+    "size": "78MB",
+    "reviews": "4.7k",
+    "ratingAvg": 4.6,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 2570 }
+    ]
+  },
+  {
+    "image": "/appImages/app7.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinSmart",
+    "id": 7,
+    "description": "Easily manage your expenses, savings, and monthly budgets.",
+    "longDescription": "BudgetBuddy is your financial assistant designed to help you take full control of your money. It allows you to track income, expenses, and savings with smart insights that promote better financial habits. You can set monthly budgets, monitor spending trends, and receive alerts when you exceed limits. The app categorizes transactions automatically and provides clear visual reports so you always know where your money goes. With data encryption and secure cloud sync, your information stays safe and accessible on all devices. BudgetBuddy also includes goal tracking — helping you save for vacations, emergencies, or future investments. Integrations with bank APIs let you import transactions automatically, saving time and effort. Whether you’re a student managing limited funds or a professional planning investments, BudgetBuddy makes financial planning easy, transparent, and empowering.",
+    "size": "40MB",
+    "reviews": "1.9k",
+    "ratingAvg": 4.3,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "/appImages/app8.jpg",
+    "title": "PhotoFix",
+    "companyName": "PixelWorks",
+    "id": 8,
+    "description": "Edit photos like a pro with AI-powered enhancement tools.",
+    "longDescription": "PhotoFix is a next-generation photo editing app that brings professional-quality tools right to your fingertips. With cutting-edge AI enhancement technology, you can retouch portraits, adjust lighting, and remove unwanted objects in seconds. The app features a variety of filters, presets, and tone adjustments designed to make every photo stand out. You can fine-tune brightness, contrast, and saturation, or let the AI do the work with one-tap auto-enhance. PhotoFix also supports RAW image editing and background removal, making it perfect for photographers, influencers, and designers. Its smooth performance, non-destructive editing, and cloud backup options ensure your creativity flows without limits. Whether you’re editing selfies or creating high-quality marketing images, PhotoFix provides the perfect balance of simplicity and power — turning ordinary photos into extraordinary art.",
+    "size": "65MB",
+    "reviews": "5.2k",
+    "ratingAvg": 4.9,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3890 }
+    ]
+  },
+  {
+    "image": "/appImages/app9.jpg",
+    "title": "MindEase",
+    "companyName": "CalmiTech",
+    "id": 9,
+    "description": "Relax, meditate, and manage stress with guided sessions.",
+    "longDescription": "MindEase is your companion for mindfulness and mental wellbeing. It offers guided meditation sessions, breathing exercises, and mood tracking to help you manage daily stress and anxiety. You can choose from multiple themes like focus, relaxation, or sleep improvement. The personalized dashboard adapts to your emotional patterns to suggest the right activities each day. With soothing sounds, offline mode, and AI-driven recommendations, MindEase makes mental self-care simple and consistent.",
+    "size": "50MB",
+    "reviews": "3.4k",
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1930 }
+    ]
+  },
+  {
+    "image": "/appImages/app10.jpg",
+    "title": "ShopSmart",
+    "companyName": "DealHub",
+    "id": 10,
+    "description": "Compare prices and find the best deals on your favorite products.",
+    "longDescription": "ShopSmart helps you save money with real-time price comparison and smart deal alerts. It scans hundreds of online stores to find the best discounts and coupon codes for your favorite brands. You can build a personalized wishlist, get price-drop notifications, and read verified reviews before you buy. ShopSmart also supports barcode scanning for quick price checks in physical stores. Designed for efficiency, it ensures every purchase you make is smarter and cheaper.",
+    "size": "60MB",
+    "reviews": "2.9k",
+    "ratingAvg": 4.4,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1290 }
+    ]
+  },
+  {
+    "image": "/appImages/app11.jpg",
+    "title": "HomeEase",
+    "companyName": "SmartHomeWorks",
+    "id": 11,
+    "description": "Control and automate your smart home devices with ease.",
+    "longDescription": "HomeEase brings the ultimate smart home experience to your fingertips. The app connects seamlessly with smart lights, thermostats, cameras, and speakers from multiple brands. With voice controls and automation scheduling, you can set moods, trigger alerts, or monitor home security from anywhere. Detailed energy reports help you save on bills, while family sharing gives everyone control access. HomeEase is the hub for effortless living in your connected home.",
+    "size": "88MB",
+    "reviews": "2.2k",
+    "ratingAvg": 4.5,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 940 }
+    ]
+  },
+  {
+    "image": "/appImages/app12.jpg",
+    "title": "GameZone",
+    "companyName": "PlayFusion",
+    "id": 12,
+    "description": "Discover and play trending mobile games in one platform.",
+    "longDescription": "GameZone is the central hub for gamers, combining discovery, gameplay, and community connection. Find new releases, browse top-rated games, and watch live tournaments. You can create a gaming profile, share scores, and chat with other players. Personalized recommendations help you find games that match your interests. With performance tracking, reward badges, and secure cloud saves, GameZone turns gaming into a connected adventure.",
+    "size": "110MB",
+    "reviews": "4.1k",
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2620 }
+    ]
+  },
+  {
+    "image": "/appImages/app13.jpg",
+    "title": "CookMate",
+    "companyName": "KitchenVerse",
+    "id": 13,
+    "description": "Discover recipes, plan meals, and shop ingredients easily.",
+    "longDescription": "CookMate is the perfect cooking assistant for home chefs and food enthusiasts. Explore global recipes, manage grocery lists, and get nutrition details for each meal. Step-by-step instructions paired with video tutorials make cooking accessible for everyone. The app also allows ingredient substitution and portion resizing. Save your favorites and share recipes with friends to make every dining experience memorable.",
+    "size": "55MB",
+    "reviews": "2.8k",
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1390 }
+    ]
+  },
+  {
+    "image": "/appImages/app14.jpg",
+    "title": "Newsly",
+    "companyName": "Informatic Labs",
+    "id": 14,
+    "description": "Get personalized news updates from trusted sources worldwide.",
+    "longDescription": "Newsly curates real-time stories based on your interests and habits. Stay informed with global, business, tech, sports, and entertainment news — all in one place. The app uses an AI-driven engine to highlight trending topics, breaking stories, and fact-checked summaries so you never miss key events. Customize your feed, enable offline reading, and get instant notifications for critical updates. With its clutter-free design, Newsly ensures information remains accessible, relevant, and insightful.",
+    "size": "42MB",
+    "reviews": "3.8k",
+    "ratingAvg": 4.4,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "/appImages/app15.jpg",
+    "title": "LangBridge",
+    "companyName": "LingoNet",
+    "id": 15,
+    "description": "Learn new languages with conversational AI and interactive lessons.",
+    "longDescription": "LangBridge is a modern language-learning platform that helps you speak effortlessly through interactive lessons and AI conversations. It provides grammar assistance, pronunciation correction, and live chat with native speakers. Personalized daily goals and achievement streaks keep learners motivated. Whether you're preparing for travel, study, or work, LangBridge ensures your language skills improve consistently.",
+    "size": "75MB",
+    "reviews": "3.9k",
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2580 }
+    ]
+  },
+  {
+    "image": "/appImages/app16.jpg",
+    "title": "DriveSync",
+    "companyName": "AutoVerse",
+    "id": 16,
+    "description": "Connect and manage your car with smart analytics and control.",
+    "longDescription": "DriveSync transforms your driving experience with intelligent analytics and real-time vehicle insights. Track mileage, monitor maintenance, and receive safety alerts. The app syncs with car sensors to provide performance updates and fuel efficiency reports. You can also schedule service appointments, log trips, and analyze route efficiency — keeping your car in top shape while saving time and money.",
+    "size": "95MB",
+    "reviews": "2.5k",
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "/appImages/app17.jpg",
+    "title": "Artify",
+    "companyName": "CreativePixel",
+    "id": 17,
+    "description": "Create digital art, sketches, and designs effortlessly.",
+    "longDescription": "Artify empowers artists and designers to express creativity with professional tools. Featuring realistic brushes, layers, and vector support, it’s perfect for illustration, concept art, and graphic design. Cloud storage keeps your creations safe and accessible across devices. Whether you're sketching, painting, or designing, Artify offers a seamless creative workflow with precision tools and smooth performance.",
+    "size": "120MB",
+    "reviews": "4.4k",
+    "ratingAvg": 4.8,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 3110 }
+    ]
+  },
+  {
+    "image": "./appImages/app18.jpg",
+    "title": "PetCare",
+    "companyName": "PawTech",
+    "id": 18,
+    "description": "Take care of your pets with tracking, reminders, and tips.",
+    "longDescription": "PetCare helps pet owners keep their furry friends healthy and happy. Manage vet appointments, medicine schedules, feeding times, and training logs — all in one place. You can track your pet’s growth and receive care tips tailored to its breed and age. The app also connects you with local vets, parks, and pet communities, making pet parenting easier than ever.",
+    "size": "58MB",
+    "reviews": "2.9k",
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "./appImages/app19.jpg",
+    "title": "ReadFlow",
+    "companyName": "LibroSoft",
+    "id": 19,
+    "description": "Access thousands of ebooks, audiobooks, and magazines.",
+    "longDescription": "ReadFlow brings reading to your fingertips by offering an extensive library of ebooks, audiobooks, and magazines. Customize font style, theme, and reading speed for your comfort. Offline reading, bookmarks, and note-taking features make it ideal for students and avid readers. ReadFlow syncs across devices, allowing you to continue right where you left off.",
+    "size": "80MB",
+    "reviews": "5.1k",
+    "ratingAvg": 4.8,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 3760 }
+    ]
+  },
+  {
+    "image": "./appImages/app20.jpg",
+    "title": "Eventify",
+    "companyName": "SocialSphere",
+    "id": 20,
+    "description": "Discover local events, concerts, and meetups near you.",
+    "longDescription": "Eventify is your go-to event discovery app that helps you explore what’s happening nearby. From concerts and festivals to workshops and exhibitions, find events based on your interests and location. You can RSVP, buy tickets, and share plans with friends instantly. The intuitive map view and notification system ensure you never miss out on experiences that matter.",
+    "size": "66MB",
+    "reviews": "3.7k",
+    "ratingAvg": 4.5,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2270 }
+    ]
+  }
+]
