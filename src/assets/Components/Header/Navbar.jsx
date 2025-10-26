@@ -1,3 +1,4 @@
+import { Github } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router";
 const Navbar = () => {
@@ -76,7 +77,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn border-none text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">Contribute</a>
+        <a href="https://github.com/mdabdullah79/Hero-Apps" target="blank" className="btn border-none text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <Github />
+          Contribute</a>
       </div>
     </div>
   );

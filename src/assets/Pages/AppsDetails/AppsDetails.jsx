@@ -1,6 +1,7 @@
 import { Download, Star, MessageSquareCode } from "lucide-react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
+import { toast } from "react-toastify";
 import {
   Bar,
   BarChart,
@@ -33,16 +34,26 @@ const AppsDetails = () => {
   } = appdata;
   console.log(image);
 
+  useEffect(() => {
+    const installedList = JSON.parse(localStorage.getItem("installed"));
+    const isInstalled = installedList.some((app) => app.id === appdata.id);
+    if (isInstalled) {
+      setInstall(true);
+    }
+  }, [appdata.id]);
+
   const handleInstall = () => {
+    setInstall(true);
+
     const exitingList = JSON.parse(localStorage.getItem("installed"));
     let updatedList = [];
     if (exitingList) {
       const isDuplicate = exitingList.some((app) => app.id === appdata.id);
       if (isDuplicate) {
-        setInstall(true);
-        alert("Installed");
+        toast("Already Installed");
         return;
       }
+      toast(`${title} Installing...`);
       updatedList = [...exitingList, appdata];
 
       console.log(isDuplicate);
@@ -96,7 +107,7 @@ const AppsDetails = () => {
               onClick={handleInstall}
               className="bg-[#00D390] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl text-white"
             >
-              {install ? "Installing" : `Install ${size}`}
+              {install ? "Installed" : `Install ${size}`}
             </button>
           </div>
         </div>
