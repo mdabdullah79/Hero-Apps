@@ -43,7 +43,7 @@ const Installation = () => {
   return (
     <>
       <div className="m-10 text-center">
-        <h1 className="text-5xl font-bold m-5">Your Installed Apps</h1>
+        <h1 className="text-2xl md:text-5xl font-bold m-5">Your Installed Apps</h1>
         <p className="text-gray-400 font-thin">
           Explore All Trending Apps on the Market developed by us
         </p>
@@ -68,12 +68,12 @@ const Installation = () => {
         {sortedOrder.map((p) => (
           <div className="bg-white px-8 py-3 rounded-2xl shadow-sm flex items-center justify-between m-5 gap-3">
             <div className="flex items-center gap-3">
-              <div className="w-[200px] h-[200px]">
+              <div className="conatainer max-w-[200px]">
                 <img src={p.image} alt="" />
               </div>
 
               <div>
-                <h2 className="text-3xl font-bold">{p.title}</h2>
+                <h2 className="text-2xl md:text-3xl font-bold">{p.title}</h2>
                 <div className="flex items-center gap-5">
                   <p>{p.downloads}</p>
                   <p>5</p>

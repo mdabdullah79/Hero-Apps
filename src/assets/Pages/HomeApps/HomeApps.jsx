@@ -1,14 +1,14 @@
 import React, { Suspense } from "react";
-import Book from "../App/App";
+import App from "../App/App";
 
 const Books = ({ data }) => {
   return (
     <div>
       <h1>Books</h1>
       <Suspense fallback={<span>Loading...</span>}>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5 container mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5 container mx-auto p-3">
           {data.map((book) => (
-            <Book key={book.id} book={book}></Book>
+            <App key={book.id} book={book}></App>
           ))}
         </div>
       </Suspense>

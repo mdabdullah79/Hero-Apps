@@ -21,15 +21,15 @@ const Apps = () => {
 
   return (
     <div>
-      <div className="text-center m-20">
-        <h1 className="text-5xl font-bold mb-5">Our All Applications</h1>
+      <div className="text-center m-10 md:m-20">
+        <h1 className="text-2xl md:text-5xl font-bold mb-5">Our All Applications</h1>
         <p>
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
       <div className="flex items-center justify-between p-10">
-        <p>{searchApps.length} Apps Found</p>
-        <label className="input">
+        <p className="">{searchApps.length} Apps Found</p>
+        <label className="input max-w-44">
           <Search />
           <input
             value={search}
@@ -48,7 +48,7 @@ const Apps = () => {
         :searchApps.length === 0 ? (
           <AppNotFound></AppNotFound>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3.5 container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3.5 container mx-auto p-3">
             {searchApps.map((book) => (
               <App key={book.id} book={book} />
             ))}

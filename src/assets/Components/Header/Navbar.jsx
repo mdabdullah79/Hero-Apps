@@ -48,15 +48,23 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
+            <Link to='/' >
             <li>
               <a>Home</a>
             </li>
+            </Link>
+
+            <Link to='/apps' >
             <li>
               <a>Apps</a>
             </li>
+            </Link>
+
+            <Link to={'/installation'}>
             <li>
               <a>Installation</a>
             </li>
+            </Link>
           </ul>
         </div>
         <div className="flex items-center">
