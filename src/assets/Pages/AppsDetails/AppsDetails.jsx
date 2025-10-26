@@ -36,7 +36,6 @@ const AppsDetails = () => {
 
   const handleInstall=()=>{
     const exitingList = JSON.parse(localStorage.getItem('installed'))
-    console.log(exitingList)
     let updatedList =[];
     if(exitingList){
         const isDuplicate = exitingList.some(app=>app.id===appdata.id)

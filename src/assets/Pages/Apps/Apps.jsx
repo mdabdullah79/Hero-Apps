@@ -1,12 +1,14 @@
 import React, { Suspense, useState } from "react";
 import { useLoaderData } from "react-router";
 import App from "../App/App";
-import { Search } from "lucide-react";
+import {  Search } from "lucide-react";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import AppNotFound from "../AppNotFound/AppNotFound";
+import Loader from "../Loader/Loader";
+import useApps from "../../Components/Hooks/useApps";
 
 const Apps = () => {
-  const data = useLoaderData();
+  const {data,loading} = useApps();
 
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
@@ -37,8 +39,13 @@ const Apps = () => {
           />
         </label>
       </div>
-      <Suspense fallback={<span>Loading...</span>}>
-        {searchApps.length === 0 ? (
+      
+      
+        {
+        loading
+        ?<Loader></Loader>
+        
+        :searchApps.length === 0 ? (
           <AppNotFound></AppNotFound>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-4 gap-3.5 container mx-auto">
@@ -47,7 +54,6 @@ const Apps = () => {
             ))}
           </div>
         )}
-      </Suspense>
     </div>
   );
 };
