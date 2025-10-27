@@ -20,7 +20,7 @@ const Banner = () => {
 
         <div className="flex gap-2 m-5 items-center justify-center place-items-center">
           <a href="https://play.google.com/store/games?hl=en" target="blank">
-            <div className="flex items-center bg-white border rounded-md px-3 py-2 shadow-sm">
+            <div className="flex items-center bg-white border rounded-md px-3 py-2 shadow-sm transition-transform duration-300 hover:scale-101 hover:shadow-xl">
               <img
                 className="w-[45px] h-[45px] rounded-full mr-3 object-cover"
                 src="./appstore.jpg"
@@ -31,7 +31,7 @@ const Banner = () => {
           </a>
 
           <a href="https://www.apple.com/app-store/" target="blank">
-            <div className="flex items-center bg-white border rounded-md px-3 py-2 shadow-sm">
+            <div className="flex items-center bg-white border rounded-md px-3 py-2 shadow-sm transition-transform duration-300 hover:scale-101 hover:shadow-xl">
               <img
                 className="w-[45px] h-[45px] rounded-full mr-3 object-cover"
                 src="./appstore.png"
@@ -69,19 +69,19 @@ const Banner = () => {
               906K
             </h2>
             <p className="text-[8px] md:text-[16px] text-white font-light mb-2.5">
-              21% more than last month
+              46% more than last month
             </p>
           </div>
 
           <div className="flex flex-col items-center justify-center">
             <p className="text-[8px] md:text-[16px] text-white font-light">
-              Total Downloads
+              Active Apps
             </p>
             <h2 className="text-3xl md:text-6xl font-extrabold text-white m-3">
-              29.6M
+              132+
             </h2>
             <p className="text-[8px] md:text-[16px] text-white font-light mb-2.5">
-              21% more than last month
+              31 more will Launch{" "}
             </p>
           </div>
         </div>

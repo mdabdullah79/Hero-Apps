@@ -8,7 +8,7 @@ const App = ({ book }) => {
 
   return (
     <Link to={`/appsdetails/${id}`}>
-    <div className="shadow-sm p-3 rounded-2x bg-white">
+    <div className="shadow-sm p-3 rounded-2x rounded-xl bg-white transition-transform duration-300 hover:scale-101 hover:shadow-xl">
         <div className="container mx-auto">
             <img className="w-full" src={image} alt="" />
         </div>

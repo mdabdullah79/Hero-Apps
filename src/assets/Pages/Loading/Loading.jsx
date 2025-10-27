@@ -9,7 +9,7 @@ const Loader = () => {
       <div className="w-10 mx-3">
         <img
           className='animate-spin style={{ animationDuration: "10s" }} '
-          src="./logo.png"
+          src="/logo.png"
           alt=""
         />
       </div>

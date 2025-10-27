@@ -7,9 +7,13 @@ const useApps = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios("./MoreAppsData.json")
+    axios("/MoreAppsData.json")
       .then((data) => setData(data.data))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        setTimeout(()=>{
+            setLoading(false)
+        },500)
+      });
   }, []);
 
   return { data, loading };

@@ -1,14 +1,15 @@
 import React, { Suspense, useState } from "react";
 import { useLoaderData } from "react-router";
 import App from "../App/App";
-import {  Search } from "lucide-react";
+import { Search } from "lucide-react";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import AppNotFound from "../AppNotFound/AppNotFound";
-import Loader from "../Loader/Loader";
+import Loader from "../Loading/Loading";
 import useApps from "../../Components/Hooks/useApps";
 
 const Apps = () => {
-  const {data,loading} = useApps();
+  const { data, loading } = useApps();
+  const [loader, setLoader] = useState(false);
 
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
@@ -22,7 +23,9 @@ const Apps = () => {
   return (
     <div>
       <div className="text-center m-10 md:m-20">
-        <h1 className="text-2xl md:text-5xl font-bold mb-5">Our All Applications</h1>
+        <h1 className="text-2xl md:text-5xl font-bold mb-5">
+          Our All Applications
+        </h1>
         <p>
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
@@ -33,27 +36,32 @@ const Apps = () => {
           <Search />
           <input
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) => {
+              setSearch(e.target.value),
+                setLoader(true),
+                setTimeout(() => {
+                  setLoader(false);
+                }, 500);
+            }}
             type="search"
             placeholder="Search"
           />
         </label>
       </div>
-      
-      
-        {
-        loading
-        ?<Loader></Loader>
-        
-        :searchApps.length === 0 ? (
-          <AppNotFound></AppNotFound>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3.5 container mx-auto p-3">
-            {searchApps.map((book) => (
-              <App key={book.id} book={book} />
-            ))}
-          </div>
-        )}
+
+      {loading ? (
+        <Loader></Loader>
+      ) : searchApps.length === 0 ? (
+        <AppNotFound></AppNotFound>
+      ) : loader ? (
+        <Loader></Loader>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3.5 container mx-auto p-3">
+          {searchApps.map((book) => (
+            <App key={book.id} book={book} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

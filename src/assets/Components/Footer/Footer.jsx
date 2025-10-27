@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-      <aside>
-        <img className="w-14" src="./logo.png" alt="" />
+      <aside className="flex items-center">
+        <img className="w-14" src="../logo.png" alt="" />
         <p className="">
           <span className="font-bold">HERO.IO</span>
           <br />

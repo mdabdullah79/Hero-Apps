@@ -1,4 +1,6 @@
+import { Download, Star } from "lucide-react";
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [sortOrder, setsortOrder] = useState("none");
@@ -64,7 +66,7 @@ const Installation = () => {
         </label>
       </div>
 
-      <div className="p-5 h-screen">
+      <div className="p-5">
         {sortedOrder.map((p) => (
           <div className="bg-white px-8 py-3 rounded-2xl shadow-sm flex items-center justify-between m-5 gap-3">
             <div className="flex items-center gap-3">
@@ -74,16 +76,20 @@ const Installation = () => {
 
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold">{p.title}</h2>
-                <div className="flex items-center gap-5">
-                  <p>{p.downloads}</p>
-                  <p>5</p>
-                  <p>258MB</p>
+                <div className="flex items-center gap-5 mt-5">
+                  <p className="text-green-600 flex items-center">
+                    <Download />
+                    {p.downloads}</p>
+                  <p className="text-green-600 flex items-center">
+                    <Star />
+                    {p.ratingAvg}</p>
+                  <p className="text-green-600">{p.size}</p>
                 </div>
               </div>
             </div>
 
             <div>
-              <button onClick={()=>handleUnintall(p.id)} className="bg-[#00D390] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl text-white">
+              <button onClick={()=>{handleUnintall(p.id);toast("Successfully Uninstall")}} className="bg-[#00D390] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl text-white">
                 Unistall
               </button>
             </div>

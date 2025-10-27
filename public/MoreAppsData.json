@@ -152,7 +152,7 @@
     ]
   },
   {
-    "image": "/appImages/app9.jpg",
+    "image": "/appImages/app1.jpg",
     "title": "MindEase",
     "companyName": "CalmiTech",
     "id": 9,
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "image": "/appImages/app10.jpg",
+    "image": "/appImages/app2.jpg",
     "title": "ShopSmart",
     "companyName": "DealHub",
     "id": 10,
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "image": "/appImages/app11.jpg",
+    "image": "/appImages/app4.jpg",
     "title": "HomeEase",
     "companyName": "SmartHomeWorks",
     "id": 11,
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "image": "/appImages/app12.jpg",
+    "image": "/appImages/app1.jpg",
     "title": "GameZone",
     "companyName": "PlayFusion",
     "id": 12,
@@ -228,7 +228,7 @@
     ]
   },
   {
-    "image": "/appImages/app13.jpg",
+    "image": "/appImages/app4.jpg",
     "title": "CookMate",
     "companyName": "KitchenVerse",
     "id": 13,
@@ -247,7 +247,7 @@
     ]
   },
   {
-    "image": "/appImages/app14.jpg",
+    "image": "/appImages/app7.png",
     "title": "Newsly",
     "companyName": "Informatic Labs",
     "id": 14,
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "image": "/appImages/app15.jpg",
+    "image": "/appImages/app1.jpg",
     "title": "LangBridge",
     "companyName": "LingoNet",
     "id": 15,
@@ -285,7 +285,7 @@
     ]
   },
   {
-    "image": "/appImages/app16.jpg",
+    "image": "/appImages/app2.jpg",
     "title": "DriveSync",
     "companyName": "AutoVerse",
     "id": 16,
@@ -304,7 +304,7 @@
     ]
   },
   {
-    "image": "/appImages/app17.jpg",
+    "image": "/appImages/app8.jpg",
     "title": "Artify",
     "companyName": "CreativePixel",
     "id": 17,
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "image": "./appImages/app18.jpg",
+    "image": "/appImages/app5.jpg",
     "title": "PetCare",
     "companyName": "PawTech",
     "id": 18,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "./appImages/app19.jpg",
+    "image": "/appImages/app2.jpg",
     "title": "ReadFlow",
     "companyName": "LibroSoft",
     "id": 19,
@@ -361,7 +361,7 @@
     ]
   },
   {
-    "image": "./appImages/app20.jpg",
+    "image": "/appImages/app4.jpg",
     "title": "Eventify",
     "companyName": "SocialSphere",
     "id": 20,

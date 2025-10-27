@@ -68,10 +68,11 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div className="flex items-center">
+       <Link to={'/'}> <div className="flex items-center">
           <img src="/logo.png" className="w-10" />
-          <h2>HERO.IO</h2>
+          <h2 className="text-blue-800 font-bold ml-3">HERO.IO</h2>
         </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
